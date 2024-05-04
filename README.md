@@ -1,9 +1,4 @@
 
-To access your flask application open new tab in and paste the url:
-```
-https://{your_url}.app:5000/
-```
-=======
 # Image Scraping Project
 
 This project is a web application built with Flask for scraping images from Google search results and storing them in a MongoDB database. It allows users to enter a search query, retrieve images related to the query, and save them for later use.
