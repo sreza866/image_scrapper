@@ -1,0 +1,24 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.18:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [04/May/2024 19:05:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [04/May/2024 19:05:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [04/May/2024 19:05:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:pymongo.serverSelection:{"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7fcd751fe0d0>", "operation": "insert", "operationId": 330463360, "topologyDescription": "<TopologyDescription id: 663639af92e75533238f5a9d, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-q0nnibw-shard-00-00.lqetryo.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-q0nnibw-shard-00-01.lqetryo.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-q0nnibw-shard-00-02.lqetryo.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "663639af92e75533238f5a9d"}, "remainingTimeMS": 29}
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.2 - - [04/May/2024 19:05:43] "POST /review HTTP/1.1" 200 -
+INFO:pymongo.serverSelection:{"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7fcd751fe0d0>", "operation": "insert", "operationId": -1804297209, "topologyDescription": "<TopologyDescription id: 66363a8092e75533238f5ab2, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-q0nnibw-shard-00-00.lqetryo.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-q0nnibw-shard-00-01.lqetryo.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-q0nnibw-shard-00-02.lqetryo.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66363a8092e75533238f5ab2"}, "remainingTimeMS": 29}
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:172.18.0.2 - - [04/May/2024 19:09:13] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.18:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [04/May/2024 19:12:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [04/May/2024 19:12:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [04/May/2024 19:12:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:pymongo.serverSelection:{"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x7f43478330d0>", "operation": "insert", "operationId": -2043972540, "topologyDescription": "<TopologyDescription id: 66363b51c781e0ac59e45447, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-q0nnibw-shard-00-00.lqetryo.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-q0nnibw-shard-00-01.lqetryo.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-q0nnibw-shard-00-02.lqetryo.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66363b51c781e0ac59e45447"}, "remainingTimeMS": 29}
+INFO:werkzeug:172.18.0.2 - - [04/May/2024 19:12:41] "POST /review HTTP/1.1" 200 -
