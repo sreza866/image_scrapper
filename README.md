@@ -25,16 +25,16 @@ Before running the application, make sure you have the following installed:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your_username/image-scraping-project.git
+   
+   ```git clone https://github.com/your_username/image-scraping-project.git```
 2. Install the required dependencies:
    
-   ```pip install -r requirements.txt
+   ```pip install -r requirements.txt```
 3. Set up MongoDB and configure the connection string in the code.
    
 5. Run the Flask application:
    
-  ```python app.py
+  ```python app.py```
 
 ## Usage
 
