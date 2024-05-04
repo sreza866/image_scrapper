@@ -1,19 +1,7 @@
-<<<<<<< HEAD
-# lab-flask
-
-<!-- ![image](https://user-images.githubusercontent.com/115451707/196919992-edcfea8b-e3f6-4f35-9398-43be66b5622d.png) -->
-
-
-To run flask application 
-
-```
-python app.py
-```
-
 
 To access your flask application open new tab in and paste the url:
 ```
-https://{your_url}.pwskills.app:5000/
+https://{your_url}.app:5000/
 ```
 =======
 # Image Scraping Project
@@ -84,4 +72,3 @@ By leveraging this image scraping project, you can quickly and efficiently colle
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
 
->>>>>>> ff2c76615a62454e17b4232ab4e9835007831ae3
